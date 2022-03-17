@@ -1,18 +1,20 @@
 import React from 'react'
 import { Switch, Route, Link } from 'react-router-dom'
 import { Layout, Typography, Space } from 'antd'
-import { Navbar } from './components/index' 
+import { Navbar } from './components/index'
+import './styles/App.css'
 
 const App = () => {
 	return (
-		<div classname="app">
+		<div className="app">
 			<div className="navbar">
+				<Navbar />
 
 			</div>
-			<div classname="main">
+			<div className="main">
 
 			</div>
-			<div classname="footer">
+			<div className="footer">
 
 			</div>
 
