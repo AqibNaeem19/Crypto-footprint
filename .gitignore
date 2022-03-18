@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+# Untracked file by AQIB
+/src/services/secretKey.js
 # testing
 /coverage
 
