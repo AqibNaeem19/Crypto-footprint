@@ -11,8 +11,9 @@ import {
 } from './components/index'
 import './styles/App.css'
 
+const { Title } = Typography
+
 const App = () => {
-	const { Title } = Typography
 	return (
 		<div className="app">
 			<div className="navbar">

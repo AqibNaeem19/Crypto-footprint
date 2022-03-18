@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom'
 import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined } from '@ant-design/icons'
 import icon from '../images/cryptocurrency.png'
 
-const Navbar = () => {
-  const { Title } = Typography
-  const { Item } = Menu
+const { Title } = Typography
+const { Item } = Menu
+
+const Navbar = () => { 
   return (
     <div className='nav-container'>
       <div className="logo-container">
