@@ -19,9 +19,12 @@ const Cryptocurrencies = ({ simplified }) => {
 
   return (
     <React.Fragment> 
-      <div className="search-crypto">
+      {!simplified && (
+        <div className="search-crypto">
         <Input placeholder="Search Cryptocurrency" onChange={(e) => setSearchTerm(e.target.value)}/>
       </div>
+      )}
+      
       {/* gutter acts as grid spacing [horizontal, vertical] */}
       <Row gutter={[32, 32]} className="crypto-card-container">
 
