@@ -119,7 +119,9 @@ const CryptoDetails = () => {
         <Row className="coin-desc">
           <Title level={3} className="coin-details-heading">
             What is {cryptoDetails.name}
-            {HTMLReactParser(cryptoDetails.description)}
+            <div>
+              {HTMLReactParser(cryptoDetails.description)}
+            </div>
           </Title>
         </Row>
         {/* Displaying coin links */}
